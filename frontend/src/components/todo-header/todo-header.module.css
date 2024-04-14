@@ -1,0 +1,28 @@
+.todo-header {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5vw;
+}
+
+.todo-header .todo-header__title {
+  position: relative;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.todo-header__title::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: rgb(113, 203, 113);
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.todo-header__desc {
+  font-size: 14px;
+  color: #767676;
+}

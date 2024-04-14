@@ -1,0 +1,30 @@
+.todo-list__item {
+  position: relative;
+  font-size: 14px;
+}
+
+.todo-list__item + .todo-list__item {
+  margin-top: 10px;
+}
+
+.todo-active {
+  opacity: 0.3;
+}
+
+.todo-button {
+  width: 40px;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+}
+
+.todo-button__done {
+  background-color: rgb(37, 68, 154);
+  color: #fff;
+  right: 50px;
+}
+
+.todo-button__delete {
+  background-color: pink;
+  color: #fff;
+}
